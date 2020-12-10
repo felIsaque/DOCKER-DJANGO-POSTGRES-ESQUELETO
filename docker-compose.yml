@@ -44,3 +44,6 @@ services:
       PGADMIN_LISTEN_PORT: ${PGADMIN_LISTEN_PORT}
     ports:
       - "8081:80"
+
+volumes:
+  static_volume:
